@@ -13,11 +13,12 @@ public class CourseSessionTest extends TestCase {
     private final String _courseNumber = "101";
 
     public void testCount() {
-        assertEquals(0, CourseSession.count);
+        CourseSession.resetCount();
+        assertEquals(0, CourseSession.getCount());
         createCourseSession();
-        assertEquals(1, CourseSession.count);
+        assertEquals(1, CourseSession.getCount());
         createCourseSession();
-        assertEquals(2, CourseSession.count);
+        assertEquals(2, CourseSession.getCount());
 
     }
 

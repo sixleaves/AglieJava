@@ -38,14 +38,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseSessionTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CourseSessionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/CourseSessionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="249">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
               <folding>
-                <element signature="e#3267#3268#0" expanded="true" />
-                <element signature="e#3334#3335#0" expanded="true" />
+                <element signature="e#3231#3232#0" expanded="true" />
+                <element signature="e#3298#3299#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,20 +108,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseSession.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CourseSession.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/CourseSession.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="915">
+              <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#409#418#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#401#410#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,8 +178,8 @@
         <option value="$PROJECT_DIR$/src/sis/report/RosterReportTest.java" />
         <option value="$PROJECT_DIR$/src/sis/report/AllTests.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/Student.java" />
-        <option value="$PROJECT_DIR$/src/sis/studentinfo/CourseSessionTest.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/CourseSession.java" />
+        <option value="$PROJECT_DIR$/src/sis/studentinfo/CourseSessionTest.java" />
       </list>
     </option>
   </component>
@@ -985,11 +979,23 @@
       <workItem from="1471075211131" duration="77000" />
       <workItem from="1471075294897" duration="14793000" />
       <workItem from="1474182320335" duration="16000" />
-      <workItem from="1474182409836" duration="3694000" />
+      <workItem from="1474182409836" duration="3432000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="AllTests - 2016.08.18 at 00h 37m 21s.xml">
+      <configuration name="AllTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllTests - 2016.08.22 at 21h 25m 06s.xml">
+      <configuration name="AllTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllTests - 2016.08.22 at 21h 41m 30s.xml">
+      <configuration name="AllTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllTests - 2016.08.22 at 21h 41m 54s.xml">
+      <configuration name="AllTests" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="AllTests - 2016.08.22 at 21h 42m 35s.xml">
       <configuration name="AllTests" configurationId="JUnit" />
     </history-entry>
@@ -1008,21 +1014,9 @@
     <history-entry file="studentinfoTests - 2016.09.18 at 16h 52m 11s.xml">
       <configuration name="studentinfoTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="studentinfoTests - 2016.09.18 at 17h 00m 01s.xml">
-      <configuration name="studentinfoTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="studentinfoTests - 2016.09.18 at 17h 01m 05s.xml">
-      <configuration name="studentinfoTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="studentinfoTests - 2016.09.18 at 17h 02m 06s.xml">
-      <configuration name="studentinfoTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="studentinfoTests - 2016.09.18 at 17h 03m 21s.xml">
-      <configuration name="studentinfoTests" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33215000" />
+    <option name="totallyTimeSpent" value="32953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -1037,7 +1031,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24822696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24822696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1098,13 +1092,7 @@
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#409#418#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#401#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1179,13 +1167,7 @@
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#409#418#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#401#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1258,13 +1240,7 @@
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#409#418#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#401#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1337,13 +1313,7 @@
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#409#418#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#401#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1488,30 +1458,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/CourseSessionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/CourseSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="915">
+          <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
           <folding>
-            <element signature="e#3267#3268#0" expanded="true" />
-            <element signature="e#3334#3335#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#401#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/CourseSession.java">
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/CourseSessionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="249">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#409#418#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#3231#3232#0" expanded="true" />
+            <element signature="e#3298#3299#0" expanded="true" />
           </folding>
         </state>
       </provider>

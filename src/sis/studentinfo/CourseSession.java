@@ -12,7 +12,7 @@ import java.util.GregorianCalendar;
 public class CourseSession {
 
 
-    static int count;
+    private static int count;
     private String _courseName;
     private String _courseNumber;
     private ArrayList<Student> _students = new ArrayList<Student>();
@@ -23,6 +23,17 @@ public class CourseSession {
     public final static String ROSTER_REPORT_HEADER = "------\n";
     public final static String ROSTER_REPORT_FOOTER = "------\n";
     */
+    public static void incrementCount() {
+        CourseSession.count = CourseSession.count + 1;
+    }
+
+    public static void resetCount() {
+        CourseSession.count = 0;
+    }
+
+    public static int getCount() {
+        return CourseSession.count;
+    }
 
     public String getCourseName() {
         return _courseName;
@@ -72,7 +83,7 @@ public class CourseSession {
     public CourseSession(String courseName, String courseNumber, Date startDate) {
         _setUp(courseName, courseNumber);
         _startDate = startDate;
-        CourseSession.count = CourseSession.count + 1;
+        CourseSession.incrementCount();
     }
 
     public Date getEndDate() {

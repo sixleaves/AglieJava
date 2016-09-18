@@ -11,7 +11,7 @@ import java.util.GregorianCalendar;
  * */
 public class CourseSession {
 
-
+    private int _numberOfCredits;
     private static int count;
     private String _courseName;
     private String _courseNumber;
@@ -23,6 +23,11 @@ public class CourseSession {
     public final static String ROSTER_REPORT_HEADER = "------\n";
     public final static String ROSTER_REPORT_FOOTER = "------\n";
     */
+    public static CourseSession create(String department, String number, Date startDate) {
+        CourseSession.incrementCount();
+        return new CourseSession(department, number, startDate);
+    }
+
     public static void incrementCount() {
         CourseSession.count = CourseSession.count + 1;
     }
@@ -80,10 +85,9 @@ public class CourseSession {
      * @return null
      * @author SuWeiPeng
      * */
-    public CourseSession(String courseName, String courseNumber, Date startDate) {
+    private CourseSession(String courseName, String courseNumber, Date startDate) {
         _setUp(courseName, courseNumber);
         _startDate = startDate;
-        CourseSession.incrementCount();
     }
 
     public Date getEndDate() {
@@ -109,10 +113,18 @@ public class CourseSession {
     }
 
     public void enroll(Student student) {
+        student.addCredits(getNumberOfCredits());
         _students.add(student);
     }
 
 
+    public void setNumberOfCredits(int numberOfCredits) {
+        _numberOfCredits = numberOfCredits;
+    }
+
+    public int getNumberOfCredits() {
+        return _numberOfCredits;
+    }
 }
 
 /**

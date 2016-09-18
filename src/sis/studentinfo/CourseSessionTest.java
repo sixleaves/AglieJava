@@ -11,6 +11,7 @@ public class CourseSessionTest extends TestCase {
     private Date _startDate;
     private final String _courseName = "ENG";
     private final String _courseNumber = "101";
+    private static final int CREDITS = 3;
 
     public void testCount() {
         CourseSession.resetCount();
@@ -65,10 +66,11 @@ public class CourseSessionTest extends TestCase {
         // 比较好的做法是给改数据接口提供接口.通过接口来操作数据结构, 而不是字节暴露.
         // 提供get和add接口.
         final String firstStudentName = "SuWeiPeng";
-        CourseSession session = new CourseSession("ENG", "101");
+        CourseSession session = createCourseSession();
         Student firstStudent = new Student(firstStudentName);
         assertEquals(firstStudentName, firstStudent.getName());
         session.enroll(firstStudent);
+        assertEquals(CREDITS, firstStudent.getCredits());
         assertEquals(1, session.getStudentSize());
         assertEquals(firstStudent, session.get(0));
 
@@ -76,13 +78,14 @@ public class CourseSessionTest extends TestCase {
         Student secondStudent = new Student(secondStudentName);
         session.enroll(secondStudent);
         assertEquals(2, session.getStudentSize());
+        assertEquals(CREDITS, secondStudent.getCredits());
         assertEquals(secondStudent, session.get(1));
 
     }
 
     public void testCourseDate() {
 
-        CourseSession session = new CourseSession("ABCD", "200",_startDate);
+        CourseSession session =CourseSession.create("ABCD", "200",_startDate);
 
         Date sixteenWeekOut = DateUtil.createDate(2003, 4, 25);
         assertEquals(sixteenWeekOut, session.getEndDate());
@@ -90,12 +93,14 @@ public class CourseSessionTest extends TestCase {
 
     public void setUp() {
         _startDate = DateUtil.createDate(2003, 1, 6);
-        _session = new CourseSession(_courseName, _courseNumber);
+        _session =  createCourseSession();
     }
 
 
     private CourseSession createCourseSession() {
-        return new CourseSession("ENGL", "101", _startDate);
+        CourseSession session = CourseSession.create(_courseName, _courseNumber, _startDate);
+        session.setNumberOfCredits(CREDITS);
+        return session;
     }
 
 

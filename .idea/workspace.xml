@@ -38,15 +38,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseSessionTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CourseSessionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/CourseSessionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-              <folding>
-                <element signature="e#3267#3268#0" expanded="true" />
-                <element signature="e#3334#3335#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="99">
+              <caret line="70" column="63" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,8 +51,8 @@
       <file leaf-file-name="StudentTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,11 +61,21 @@
       <file leaf-file-name="RosterReportTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/report/RosterReportTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="152">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentTest1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,53 +83,48 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
               <folding>
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AllTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sis/report/AllTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RosterReport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sis/report/RosterReport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseSession.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CourseSession.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/CourseSession.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="253">
+              <caret line="114" column="41" selection-start-line="114" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#409#418#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#442#451#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1071#1072#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#2970#2971#0" expanded="true" />
+                <element signature="e#3020#3021#0" expanded="true" />
+                <element signature="e#3059#3060#0" expanded="true" />
+                <element signature="e#3098#3099#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Assert.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/Assert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,11 +183,13 @@
         <option value="$PROJECT_DIR$/src/studentinfo/CourseSessionTest.java" />
         <option value="$PROJECT_DIR$/src/studentinfo/AllTests.java" />
         <option value="$PROJECT_DIR$/src/studentinfo/DateUtilTest.java" />
-        <option value="$PROJECT_DIR$/src/sis/report/RosterReportTest.java" />
         <option value="$PROJECT_DIR$/src/sis/report/AllTests.java" />
+        <option value="$PROJECT_DIR$/src/sis/report/RosterReportTest.java" />
+        <option value="$PROJECT_DIR$/src/sis/studentinfo/StudentTest.java" />
+        <option value="$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/Student.java" />
-        <option value="$PROJECT_DIR$/src/sis/studentinfo/CourseSessionTest.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/CourseSession.java" />
+        <option value="$PROJECT_DIR$/src/sis/studentinfo/CourseSessionTest.java" />
       </list>
     </option>
   </component>
@@ -985,44 +989,44 @@
       <workItem from="1471075211131" duration="77000" />
       <workItem from="1471075294897" duration="14793000" />
       <workItem from="1474182320335" duration="16000" />
-      <workItem from="1474182409836" duration="3694000" />
+      <workItem from="1474182409836" duration="7215000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllTests - 2016.08.22 at 21h 42m 35s.xml">
-      <configuration name="AllTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTests - 2016.08.22 at 22h 00m 58s.xml">
-      <configuration name="AllTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTests - 2016.08.22 at 22h 02m 18s.xml">
-      <configuration name="AllTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="reportTests - 2016.08.22 at 22h 02m 59s.xml">
-      <configuration name="reportTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="reportTests - 2016.09.18 at 16h 51m 56s.xml">
-      <configuration name="reportTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="studentinfoTests - 2016.09.18 at 16h 52m 11s.xml">
+    <history-entry file="studentinfoTests - 2016.09.18 at 17h 34m 37s.xml">
       <configuration name="studentinfoTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="studentinfoTests - 2016.09.18 at 17h 00m 01s.xml">
+    <history-entry file="studentinfoTests - 2016.09.18 at 17h 34m 58s.xml">
       <configuration name="studentinfoTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="studentinfoTests - 2016.09.18 at 17h 01m 05s.xml">
+    <history-entry file="studentinfoTests - 2016.09.18 at 17h 35m 20s.xml">
       <configuration name="studentinfoTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="studentinfoTests - 2016.09.18 at 17h 02m 06s.xml">
+    <history-entry file="studentinfoTests - 2016.09.18 at 17h 39m 25s.xml">
       <configuration name="studentinfoTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="studentinfoTests - 2016.09.18 at 17h 03m 21s.xml">
+    <history-entry file="studentinfoTests - 2016.09.18 at 17h 44m 48s.xml">
+      <configuration name="studentinfoTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="studentinfoTests - 2016.09.18 at 17h 45m 36s.xml">
+      <configuration name="studentinfoTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="studentinfoTests - 2016.09.18 at 17h 47m 31s.xml">
+      <configuration name="studentinfoTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="studentinfoTests - 2016.09.18 at 17h 54m 33s.xml">
+      <configuration name="studentinfoTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="studentinfoTests - 2016.09.18 at 17h 55m 15s.xml">
+      <configuration name="studentinfoTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="studentinfoTests - 2016.09.18 at 17h 55m 40s.xml">
       <configuration name="studentinfoTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33215000" />
+    <option name="totallyTimeSpent" value="36736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -1030,14 +1034,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32765958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24822696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24822696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1086,8 +1090,11 @@
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1098,13 +1105,17 @@
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#409#418#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#442#451#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#2970#2971#0" expanded="true" />
+            <element signature="e#3020#3021#0" expanded="true" />
+            <element signature="e#3059#3060#0" expanded="true" />
+            <element signature="e#3098#3099#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1167,8 +1178,11 @@
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1179,13 +1193,17 @@
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#409#418#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#442#451#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#2970#2971#0" expanded="true" />
+            <element signature="e#3020#3021#0" expanded="true" />
+            <element signature="e#3059#3060#0" expanded="true" />
+            <element signature="e#3098#3099#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1246,8 +1264,11 @@
         <state relative-caret-position="0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1258,13 +1279,17 @@
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#409#418#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#442#451#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#2970#2971#0" expanded="true" />
+            <element signature="e#3020#3021#0" expanded="true" />
+            <element signature="e#3059#3060#0" expanded="true" />
+            <element signature="e#3098#3099#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1325,8 +1350,11 @@
         <state relative-caret-position="0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1337,13 +1365,17 @@
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#409#418#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#442#451#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#2970#2971#0" expanded="true" />
+            <element signature="e#3020#3021#0" expanded="true" />
+            <element signature="e#3059#3060#0" expanded="true" />
+            <element signature="e#3098#3099#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1372,13 +1404,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1396,22 +1421,6 @@
     <entry file="file://$PROJECT_DIR$/out/production/javaStudy/studentinfo/CourseSessionTest.class" />
     <entry file="file://$USER_HOME$/Desktop/AutoTestStudy/iOSMonkey/iOSMonkey/src/com/tqnd/ios/codesign/Codesign.java" />
     <entry file="file://$PROJECT_DIR$/src/DateUtil/createDate.java" />
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/TestSuite.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -1441,17 +1450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1468,16 +1466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/report/RosterReportTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/AllTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1488,31 +1476,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/CourseSessionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/sis/report/RosterReportTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="152">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
-            <element signature="e#3267#3268#0" expanded="true" />
-            <element signature="e#3334#3335#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/CourseSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="253">
+          <caret line="114" column="41" selection-start-line="114" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#409#418#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#442#451#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#2970#2971#0" expanded="true" />
+            <element signature="e#3020#3021#0" expanded="true" />
+            <element signature="e#3059#3060#0" expanded="true" />
+            <element signature="e#3098#3099#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/CourseSessionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="70" column="63" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>

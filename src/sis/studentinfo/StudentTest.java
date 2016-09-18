@@ -16,6 +16,8 @@ public class StudentTest extends junit.framework.TestCase {
         Student secondStudent = new Student("WangDongLiang");
         assertEquals(secondStudent.getName(), "WangDongLiang");
     }
+
+
 }
 /*
 * 该段代码违背了系统中的代码不要有重复的代码.重复的代码容易带来两个问题.

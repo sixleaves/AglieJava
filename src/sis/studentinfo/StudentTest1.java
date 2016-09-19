@@ -38,12 +38,23 @@ public class StudentTest1 extends junit.framework.TestCase {
         assertFalse(student.isFullTime());
         student.addCredits(2);
         assertTrue(student.isFullTime());
-        assertEquals(12, student.getCredits());
+        assertEquals(Student.CREDITS_REQUIRED_FOR_FULL_TIME, student.getCredits());
         student.addCredits(3);
         assertTrue(student.isFullTime());
         student.addCredits(-3);
         assertTrue(student.isFullTime());
         student.addCredits(-13);
         assertFalse(student.isFullTime());
+    }
+
+    public void testStudentState() {
+
+        Student student = new Student("a");
+        assertFalse(student.isInState());
+        student.setState(Student.IN_STATE);
+        assertTrue(student.isInState());
+        student.setState("MD");
+        assertFalse(student.isInState());
+
     }
 }

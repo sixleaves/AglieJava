@@ -5,11 +5,14 @@ package sis.studentinfo;
  */
 public class Student {
 
+    private String _state = "";
+
     private String _name;
 
     private int _credits;
 
     static final int CREDITS_REQUIRED_FOR_FULL_TIME = 12;
+    static final String IN_STATE = "CO";
 
     public Student(String name) {
         _name = name;
@@ -30,5 +33,13 @@ public class Student {
 
     public void addCredits(int credits) {
         _credits += credits;
+    }
+
+    public boolean isInState() {
+        return _state.equals(IN_STATE);
+    }
+
+    public void setState(String state) {
+        _state = state;
     }
 }

@@ -13,7 +13,7 @@ public class Student {
 
     private String _state = "";
     private double _gpa = 0;
-    private ArrayList<String> _grades = new ArrayList<String>();
+    private ArrayList<Grade> _grades = new ArrayList<Grade>();
 
     private String _name;
 
@@ -55,21 +55,21 @@ public class Student {
 
         if (_grades.isEmpty()) return 0.0;
         double total = 0.0;
-        for (String grade : _grades) {
+        for (Student.Grade grade : _grades) {
             total += gradePointsFor(grade);
         }
         return total / _grades.size();
     }
 
-    public double gradePointsFor(String grade) {
-        if (grade.equals("A")) return  4;
-        if (grade.equals("B")) return  3;
-        if (grade.equals("C")) return  2;
-        if (grade.equals("D"))  return  1;
+    public double gradePointsFor(Student.Grade grade) {
+        if (grade.equals(Student.Grade.A)) return  4;
+        if (grade.equals(Student.Grade.B)) return  3;
+        if (grade.equals(Student.Grade.C)) return  2;
+        if (grade.equals(Student.Grade.D))  return  1;
         return 0;
     }
 
-    public void addGrade(String grade) {
-        _grades.add(grade.toUpperCase());
+    public void addGrade(Grade grade) {
+        _grades.add(grade);
     }
 }

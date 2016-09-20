@@ -4,6 +4,7 @@ package sis.studentinfo;
  * Created by sixleaves on 16/8/11.
  */
 public class StudentTest1 extends junit.framework.TestCase {
+    static final int GRADE_TOLERANCE = 5 / 100;
     public void testCreate() {
         // 请重构代码, 并说明原因
         final String firstStudentName = "SuWeiPeng";
@@ -57,4 +58,32 @@ public class StudentTest1 extends junit.framework.TestCase {
         assertFalse(student.isInState());
 
     }
+
+    public void testGpa() {
+
+        Student student = new Student("a");
+        assertGpa(student, 0);
+
+        student.addGrade("A");
+        assertGpa(student, 4.0);
+
+        student.addGrade("b");
+        assertGpa(student, 3.5);
+
+        student.addGrade("C");
+        assertGpa(student, 3.0);
+
+        student.addGrade("d");
+        assertGpa(student, 2.5);
+
+        student.addGrade("F");
+        assertGpa(student, 2.0);
+    }
+
+    public void assertGpa(Student student, double gpa) {
+        assertEquals(gpa, student.getGpa(), GRADE_TOLERANCE);
+    }
+
+
+
 }

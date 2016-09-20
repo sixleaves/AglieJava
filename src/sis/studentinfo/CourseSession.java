@@ -9,7 +9,7 @@ import java.util.GregorianCalendar;
  * CourseSession对象, 是课程安排对象.表示某门课程的安排(课程名称和课程编号)和参与的学生.
  *
  * */
-public class CourseSession {
+public class CourseSession implements Comparable<CourseSession>{
 
     private int _numberOfCredits;
     private static int count;
@@ -17,6 +17,14 @@ public class CourseSession {
     private String _courseNumber;
     private ArrayList<Student> _students = new ArrayList<Student>();
     private Date _startDate;
+
+
+    @Override
+    public int compareTo(CourseSession o) {
+        int compare = getCourseName().compareTo(o.getCourseName());
+        if (compare == 0) compare = getCourseNumber().compareTo(o.getCourseNumber());
+        return compare;
+    }
 
     // const
     /* Refactor

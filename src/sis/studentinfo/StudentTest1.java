@@ -5,6 +5,31 @@ package sis.studentinfo;
  */
 public class StudentTest1 extends junit.framework.TestCase {
     static final int GRADE_TOLERANCE = 5 / 100;
+
+    public void testCalculateHonorsStudentGps() {
+
+        assertGpa(createHonorsStudent(), 0.0);
+        assertGpa(createHonorsStudent(Student.Grade.A), 5.0);
+        assertGpa(createHonorsStudent(Student.Grade.B), 4.0);
+        assertGpa(createHonorsStudent(Student.Grade.C), 3.0);
+        assertGpa(createHonorsStudent(Student.Grade.D), 2.0);
+        assertGpa(createHonorsStudent(Student.Grade.F), 0);
+
+    }
+
+    private Student createHonorsStudent() { // 边界
+        Student student = new Student("a");
+        student.setHonors();
+        return student;
+    }
+
+    private Student createHonorsStudent(Student.Grade grade) { // 正常输入
+        Student student = new Student("a");
+        student.setHonors();
+        student.addGrade(grade);
+        return student;
+    }
+
     public void testCreate() {
         // 请重构代码, 并说明原因
         final String firstStudentName = "SuWeiPeng";
@@ -83,7 +108,6 @@ public class StudentTest1 extends junit.framework.TestCase {
     public void assertGpa(Student student, double gpa) {
         assertEquals(gpa, student.getGpa(), GRADE_TOLERANCE);
     }
-
 
 
 }

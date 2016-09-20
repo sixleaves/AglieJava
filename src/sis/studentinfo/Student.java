@@ -7,6 +7,25 @@ import java.util.ArrayList;
  */
 public class Student {
 
+    // 增加判断荣誉学生的功能, 不可扩展。
+    // 一旦编码起来, 容易照成需求要添加其它类型的学生,就需要更改其student类
+    // 而依赖于student的类就很可能得跟着做更改。
+    private boolean _isHonors = false;
+    private GradingStrategy _gradingStrategy = new RegularGradingStrategy();
+
+    public void setHonors() {
+        _isHonors = true;
+        _gradingStrategy = new HonorsGradingStrategy();
+    }
+
+    public GradingStrategy getGradingStrategy() {
+        return _gradingStrategy;
+    }
+
+    public void setGradingStrategy(GradingStrategy gradingStrategy) {
+        _gradingStrategy = gradingStrategy;
+    }
+
     enum Grade {
         A, B, C, D, F
     }
@@ -56,17 +75,9 @@ public class Student {
         if (_grades.isEmpty()) return 0.0;
         double total = 0.0;
         for (Student.Grade grade : _grades) {
-            total += gradePointsFor(grade);
+            total += _gradingStrategy.getGradePointFor(grade);
         }
         return total / _grades.size();
-    }
-
-    public double gradePointsFor(Student.Grade grade) {
-        if (grade.equals(Student.Grade.A)) return  4;
-        if (grade.equals(Student.Grade.B)) return  3;
-        if (grade.equals(Student.Grade.C)) return  2;
-        if (grade.equals(Student.Grade.D))  return  1;
-        return 0;
     }
 
     public void addGrade(Grade grade) {

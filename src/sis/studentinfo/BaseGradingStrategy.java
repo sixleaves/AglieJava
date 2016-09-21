@@ -3,7 +3,9 @@ package sis.studentinfo;
 /**
  * Created by admini on 16/9/21.
  */
-public class BaseGradingStrategy {
+abstract public class BaseGradingStrategy implements GradingStrategy{
+    abstract public int getGradePointFor(Student.Grade grade);
+
     public int baseGradePointFor(Student.Grade grade) {
         switch (grade) {
             case A: return 4;

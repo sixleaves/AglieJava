@@ -3,7 +3,7 @@ import sis.studentinfo.Student;
 /**
  * Created by admini on 16/9/20.
  */
-public class HonorsGradingStrategy extends BaseGradingStrategy implements GradingStrategy{
+public class HonorsGradingStrategy extends BaseGradingStrategy{
     @Override
     public int getGradePointFor(Student.Grade grade) {
         int gradePoint = baseGradePointFor(grade);

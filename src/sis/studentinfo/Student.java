@@ -26,7 +26,7 @@ public class Student {
         _gradingStrategy = gradingStrategy;
     }
 
-    enum Grade {
+    public enum Grade {
         A, B, C, D, F
     }
 

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b97bd08-d977-4f8d-a1d7-e6679f258312" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sis/studentinfo/BaseGradingStrategy.java" afterPath="$PROJECT_DIR$/src/sis/studentinfo/BaseGradingStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sis/studentinfo/HonorsGradingStrategy.java" afterPath="$PROJECT_DIR$/src/sis/studentinfo/HonorsGradingStrategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sis/studentinfo/RegularGradingStrategy.java" afterPath="$PROJECT_DIR$/src/sis/studentinfo/RegularGradingStrategy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sis/studentinfo/Student.java" afterPath="$PROJECT_DIR$/src/sis/studentinfo/Student.java" />
     </list>
     <ignored path="javaStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,9 +33,13 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="292">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+              <folding>
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/GradingStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -55,22 +57,12 @@
       <file leaf-file-name="RegularGradingStrategy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/RegularGradingStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="135">
               <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <element signature="e#199#200#0" expanded="true" />
                 <element signature="e#246#247#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseReportTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sis/report/CourseReportTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -113,27 +105,40 @@
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/HonorsGradingStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseGradingStrategy.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseGradingStrategy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/BaseGradingStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+            <state relative-caret-position="135">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentTest1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentTest1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java">
+      <file leaf-file-name="StudentTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="135">
+              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -184,15 +189,15 @@
         <option value="$PROJECT_DIR$/src/sis/report/CourseReport.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/CourseSession.java" />
         <option value="$PROJECT_DIR$/src/sis/report/CourseReportTest.java" />
-        <option value="$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java" />
-        <option value="$PROJECT_DIR$/src/sis/studentinfo/Student.java" />
         <option value="$PROJECT_DIR$/src/sis/report/CardReportTest.java" />
         <option value="$PROJECT_DIR$/src/sis/report/AllTests.java" />
         <option value="$PROJECT_DIR$/src/sis/report/ReportCard.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/GradingStrategy.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/HonorsGradingStrategy.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/RegularGradingStrategy.java" />
+        <option value="$PROJECT_DIR$/src/sis/studentinfo/Student.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/BaseGradingStrategy.java" />
+        <option value="$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java" />
       </list>
     </option>
   </component>
@@ -217,7 +222,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="746" />
+    <option name="x" value="13" />
     <option name="y" value="23" />
     <option name="width" value="1436" />
     <option name="height" value="797" />
@@ -1009,14 +1014,11 @@
       <workItem from="1474251405392" duration="8381000" />
       <workItem from="1474342013342" duration="7195000" />
       <workItem from="1474423074718" duration="3536000" />
-      <workItem from="1474454504430" duration="34000" />
+      <workItem from="1474454504430" duration="610000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CardReportTest - 2016.09.21 at 10h 22m 04s.xml">
-      <configuration name="CardReportTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CardReportTest - 2016.09.21 at 10h 23m 35s.xml">
       <configuration name="CardReportTest" configurationId="JUnit" />
     </history-entry>
@@ -1024,6 +1026,9 @@
       <configuration name="CardReportTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StudentTest1 - 2016.09.21 at 10h 26m 38s.xml">
+      <configuration name="StudentTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest1 - 2016.09.21 at 18h 50m 16s.xml">
       <configuration name="StudentTest1" configurationId="JUnit" />
     </history-entry>
     <history-entry file="studentinfoTests - 2016.09.20 at 13h 50m 58s.xml">
@@ -1046,26 +1051,27 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55882000" />
+    <option name="totallyTimeSpent" value="56458000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="746" y="23" width="1436" height="797" extended-state="0" />
-    <editor active="false" />
+    <frame x="13" y="23" width="1436" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24680851" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24680851" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22525108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22525108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1077,7 +1083,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1117,7 +1122,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,6 +1156,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,6 +1172,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1177,7 +1188,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1207,6 +1222,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,6 +1238,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,7 +1254,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1267,6 +1288,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,6 +1316,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1353,13 +1376,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1374,14 +1391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1414,33 +1423,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/GradingStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/HonorsGradingStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/RegularGradingStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="135">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="e#199#200#0" expanded="true" />
@@ -1449,10 +1434,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/BaseGradingStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/GradingStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/HonorsGradingStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/BaseGradingStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
           <folding />
         </state>
       </provider>

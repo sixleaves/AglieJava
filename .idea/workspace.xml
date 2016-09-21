@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b97bd08-d977-4f8d-a1d7-e6679f258312" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sis/report/CardReportTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sis/report/ReportCard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sis/studentinfo/BaseGradingStrategy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sis/report/AllTests.java" afterPath="$PROJECT_DIR$/src/sis/report/AllTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sis/studentinfo/Student.java" afterPath="$PROJECT_DIR$/src/sis/studentinfo/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sis/studentinfo/GradingStrategy.java" afterPath="$PROJECT_DIR$/src/sis/studentinfo/GradingStrategy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sis/studentinfo/HonorsGradingStrategy.java" afterPath="$PROJECT_DIR$/src/sis/studentinfo/HonorsGradingStrategy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sis/studentinfo/RegularGradingStrategy.java" afterPath="$PROJECT_DIR$/src/sis/studentinfo/RegularGradingStrategy.java" />
     </list>
     <ignored path="javaStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +45,8 @@
       <file leaf-file-name="GradingStrategy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/GradingStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -55,19 +55,12 @@
       <file leaf-file-name="RegularGradingStrategy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/RegularGradingStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseReport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sis/report/CourseReport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="120">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding>
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReportCard.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReportCard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/report/ReportCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+            <state relative-caret-position="44">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,11 +109,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HonorsGradingStrategy.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HonorsGradingStrategy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/HonorsGradingStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="165">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseGradingStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/BaseGradingStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -129,12 +132,9 @@
       <file leaf-file-name="StudentTest1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="15">
               <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding>
-                <element signature="e#3301#3302#0" expanded="true" />
-                <element signature="e#3369#3370#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -185,13 +185,14 @@
         <option value="$PROJECT_DIR$/src/sis/studentinfo/CourseSession.java" />
         <option value="$PROJECT_DIR$/src/sis/report/CourseReportTest.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java" />
-        <option value="$PROJECT_DIR$/src/sis/studentinfo/GradingStrategy.java" />
-        <option value="$PROJECT_DIR$/src/sis/studentinfo/HonorsGradingStrategy.java" />
-        <option value="$PROJECT_DIR$/src/sis/studentinfo/RegularGradingStrategy.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/Student.java" />
         <option value="$PROJECT_DIR$/src/sis/report/CardReportTest.java" />
         <option value="$PROJECT_DIR$/src/sis/report/AllTests.java" />
         <option value="$PROJECT_DIR$/src/sis/report/ReportCard.java" />
+        <option value="$PROJECT_DIR$/src/sis/studentinfo/GradingStrategy.java" />
+        <option value="$PROJECT_DIR$/src/sis/studentinfo/HonorsGradingStrategy.java" />
+        <option value="$PROJECT_DIR$/src/sis/studentinfo/BaseGradingStrategy.java" />
+        <option value="$PROJECT_DIR$/src/sis/studentinfo/RegularGradingStrategy.java" />
       </list>
     </option>
   </component>
@@ -343,7 +344,7 @@
       <recent name="studentinfo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CardReportTest">
+  <component name="RunManager" selected="JUnit.StudentTest1">
     <configuration default="false" name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -362,27 +363,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="CourseSessionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="javaStudy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="studentinfo" />
-      <option name="MAIN_CLASS_NAME" value="studentinfo.CourseSessionTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="studentinfoTests" type="JUnit" factoryName="JUnit" temporary="true">
@@ -444,6 +424,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="sis.report" />
       <option name="MAIN_CLASS_NAME" value="sis.report.CardReportTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StudentTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sis.studentinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="javaStudy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sis.studentinfo" />
+      <option name="MAIN_CLASS_NAME" value="sis.studentinfo.StudentTest1" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -962,18 +968,18 @@
       <item index="0" class="java.lang.String" itemvalue="JUnit.reportTests" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0.35" />
       <item index="2" class="java.lang.String" itemvalue="Application.Hello" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CourseSessionTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.studentinfoTests" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.CourseReportTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.CardReportTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.studentinfoTests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CourseReportTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CardReportTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.StudentTest1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CardReportTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.studentinfoTests" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CourseReportTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Hello" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CourseSessionTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StudentTest1" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CardReportTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.studentinfoTests" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CourseReportTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Hello" />
       </list>
     </recent_temporary>
   </component>
@@ -999,7 +1005,7 @@
       <workItem from="1474182409836" duration="7215000" />
       <workItem from="1474251405392" duration="8381000" />
       <workItem from="1474342013342" duration="7195000" />
-      <workItem from="1474423074718" duration="1185000" />
+      <workItem from="1474423074718" duration="2097000" />
     </task>
     <servers />
   </component>
@@ -1010,11 +1016,11 @@
     <history-entry file="CardReportTest - 2016.09.21 at 10h 23m 35s.xml">
       <configuration name="CardReportTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="studentinfoTests - 2016.09.20 at 11h 42m 08s.xml">
-      <configuration name="studentinfoTests" configurationId="JUnit" />
+    <history-entry file="CardReportTest - 2016.09.21 at 10h 26m 32s.xml">
+      <configuration name="CardReportTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="studentinfoTests - 2016.09.20 at 11h 59m 02s.xml">
-      <configuration name="studentinfoTests" configurationId="JUnit" />
+    <history-entry file="StudentTest1 - 2016.09.21 at 10h 26m 38s.xml">
+      <configuration name="StudentTest1" configurationId="JUnit" />
     </history-entry>
     <history-entry file="studentinfoTests - 2016.09.20 at 13h 50m 58s.xml">
       <configuration name="studentinfoTests" configurationId="JUnit" />
@@ -1036,7 +1042,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53497000" />
+    <option name="totallyTimeSpent" value="54409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="797" extended-state="0" />
@@ -1051,7 +1057,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24680851" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24680851" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1095,22 +1101,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#3301#3302#0" expanded="true" />
-            <element signature="e#3369#3370#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1173,10 +1168,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#3301#3302#0" expanded="true" />
-            <element signature="e#3369#3370#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,10 +1231,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#3301#3302#0" expanded="true" />
-            <element signature="e#3369#3370#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1383,41 +1372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#3301#3302#0" expanded="true" />
-            <element signature="e#3369#3370#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/GradingStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/HonorsGradingStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/RegularGradingStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sis/report/CourseReport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1462,11 +1416,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sis/report/ReportCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        <state relative-caret-position="44">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/GradingStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/BaseGradingStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/RegularGradingStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/HonorsGradingStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

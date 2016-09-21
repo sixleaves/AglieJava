@@ -9,130 +9,29 @@ import java.util.GregorianCalendar;
  * CourseSession对象, 是课程安排对象.表示某门课程的安排(课程名称和课程编号)和参与的学生.
  *
  * */
-public class CourseSession implements Comparable<CourseSession>{
-
-    private int _numberOfCredits;
-    private static int count;
-    private String _courseName;
-    private String _courseNumber;
-    private ArrayList<Student> _students = new ArrayList<Student>();
-    protected Date _startDate;
-
+public class CourseSession extends Session {
 
     @Override
-    public int compareTo(CourseSession o) {
-        int compare = getCourseName().compareTo(o.getCourseName());
-        if (compare == 0) compare = getCourseNumber().compareTo(o.getCourseNumber());
-        return compare;
+    public int getSessionLength() {
+        return 16;
     }
 
-    // const
-    /* Refactor
-    public final static String ROSTER_REPORT_HEADER = "------\n";
-    public final static String ROSTER_REPORT_FOOTER = "------\n";
-    */
+    @Override
+    public int getDaysFromFridayToMonday() {
+        return 3;
+    }
+
     public static CourseSession create(String department, String number, Date startDate) {
         CourseSession.incrementCount();
-        return new CourseSession(department, number, startDate);
+        CourseSession courseSession =new CourseSession(department, number, startDate);
+        courseSession.setNumberOfCredits(3);
+        return courseSession;
     }
 
-    public static void incrementCount() {
-        CourseSession.count = CourseSession.count + 1;
+    private CourseSession(String department, String number, Date startDate) {
+        super(department, number, startDate);
     }
 
-    public static void resetCount() {
-        CourseSession.count = 0;
-    }
-
-    public static int getCount() {
-        return CourseSession.count;
-    }
-
-    public String getCourseName() {
-        return _courseName;
-    }
-
-    public String getCourseNumber() {
-        return _courseNumber;
-    }
-
-    public void setCourseName(String courseName) {
-        _courseName = courseName;
-    }
-
-    public void setCourseNumber(String courseNumber) {
-        _courseNumber = courseNumber;
-    }
-
-
-    // depre
-//    public void setStudents(ArrayList<Student> students) {
-//        _students = students;
-//    }
-
-//    public ArrayList<Student> getStudents() {
-//        return _students;
-//    }
-
-/**
- * @return int
- * @author suweipeng
- * */
-    public int getStudentSize() {
-        return _students.size();
-    }
-
-    public CourseSession(String courseName, String courseNumber) {
-        _setUp(courseName, courseNumber);
-    }
-    /**
-     *
-     * @param courseName
-     * @param courseNumber
-     * @param startDate
-     * @return null
-     * @author SuWeiPeng
-     * */
-    protected CourseSession(String courseName, String courseNumber, Date startDate) {
-        _setUp(courseName, courseNumber);
-        _startDate = startDate;
-    }
-
-    public Date getEndDate() {
-
-        int days = 7 * 16 - 3;
-        GregorianCalendar calendar = new GregorianCalendar();
-        calendar.setTime(_startDate);
-        calendar.add(calendar.DAY_OF_YEAR, days);
-        return calendar.getTime();
-
-    }
-
-    private void _setUp(String courseName, String courseNumber) {
-        _courseName = courseName;
-        _courseNumber = courseNumber;
-    }
-
-    public Student get(int index) {
-        if (index < 0 || index >= this.getStudentSize()) {
-            throw new Error();
-        }
-        return _students.get(index);
-    }
-
-    public void enroll(Student student) {
-        student.addCredits(getNumberOfCredits());
-        _students.add(student);
-    }
-
-
-    public void setNumberOfCredits(int numberOfCredits) {
-        _numberOfCredits = numberOfCredits;
-    }
-
-    public int getNumberOfCredits() {
-        return _numberOfCredits;
-    }
 }
 
 /**

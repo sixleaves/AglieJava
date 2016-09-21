@@ -7,22 +7,21 @@ import java.util.Date;
 /**
  * Created by sixleaves on 16/9/22.
  */
-public class SessionTest extends TestCase {
+abstract public class SessionTest extends TestCase {
 
-    private CourseSession _session;
+    private Session _session;
     private Date _startDate;
     private final String _courseName = "ENG";
     private final String _courseNumber = "101";
-    private static final int CREDITS = 3;
+    protected static final int CREDITS = 3;
 
     public void testCount() {
-        CourseSession.resetCount();
-        assertEquals(0, CourseSession.getCount());
-        createCourseSession();
-        assertEquals(1, CourseSession.getCount());
-        createCourseSession();
-        assertEquals(2, CourseSession.getCount());
-
+        Session.resetCount();
+        assertEquals(0, Session.getCount());
+        createSession("", "", _startDate);
+        assertEquals(1, Session.getCount());
+        createSession("", "", _startDate);
+        assertEquals(2, Session.getCount());
     }
 
     public void testCreate() {
@@ -43,7 +42,7 @@ public class SessionTest extends TestCase {
         // 比较好的做法是给改数据接口提供接口.通过接口来操作数据结构, 而不是字节暴露.
         // 提供get和add接口.
         final String firstStudentName = "SuWeiPeng";
-        CourseSession session = createCourseSession();
+        Session session = createSession("", "", _startDate);
         Student firstStudent = new Student(firstStudentName);
         assertEquals(firstStudentName, firstStudent.getName());
         session.enroll(firstStudent);
@@ -61,22 +60,17 @@ public class SessionTest extends TestCase {
     }
 
     public void testEndDate() {
-
-        CourseSession session =CourseSession.create("ABCD", "200",_startDate);
+        Session session = createSession("ABCD", "200",_startDate);
         Date sixteenWeekOut = DateUtil.createDate(2003, 4, 25);
         assertEquals(sixteenWeekOut, session.getEndDate());
     }
 
     public void setUp() {
         _startDate = DateUtil.createDate(2003, 1, 6);
-        _session =  createCourseSession();
+        _session =  createSession("ENG", "101", _startDate);
     }
 
+    abstract Session createSession(String courseName, String courseNumber, Date startDate);
 
-    private CourseSession createCourseSession() {
-        CourseSession session = CourseSession.create(_courseName, _courseNumber, _startDate);
-        session.setNumberOfCredits(CREDITS);
-        return session;
-    }
 
 }

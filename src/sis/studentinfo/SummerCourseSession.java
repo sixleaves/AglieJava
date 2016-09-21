@@ -9,12 +9,15 @@ import java.util.GregorianCalendar;
 /*
 * 大学需要有夏季课程安排.夏季学期从六月初开始, 一共有8周, 期间没有中断.
 * */
-public class SummerCourseSession extends CourseSession{
+public class SummerCourseSession extends Session {
 
     public static SummerCourseSession create(String courseName,
                                       String courseNumber,
                                       Date startDate) {
-        return new SummerCourseSession(courseName, courseNumber, startDate);
+        incrementCount();
+        SummerCourseSession session =new SummerCourseSession(courseName, courseNumber, startDate);
+        session.setNumberOfCredits(3);
+        return session;
     }
 
     private SummerCourseSession(String courseName,
@@ -24,15 +27,12 @@ public class SummerCourseSession extends CourseSession{
     }
 
     @Override
-    public Date getEndDate() {
-
-        int sessionLength = 8;
-        int daysInWeek = 7;
-        int days = daysInWeek * sessionLength - 1;
-        GregorianCalendar calendar = new GregorianCalendar();
-        calendar.setTime(_startDate);
-        calendar.add(calendar.DAY_OF_YEAR, days);
-        return calendar.getTime();
+    public int getDaysFromFridayToMonday() {
+        return 1;
     }
 
+    @Override
+    public int getSessionLength() {
+       return 8;
+    }
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b97bd08-d977-4f8d-a1d7-e6679f258312" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/SessionTest.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sis/studentinfo/SessionTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/CourseSessionTest.class" afterPath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/CourseSessionTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/SummerCourseSession.class" afterPath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/SummerCourseSession.class" />
@@ -1012,7 +1013,7 @@
       <workItem from="1474342013342" duration="7195000" />
       <workItem from="1474423074718" duration="3536000" />
       <workItem from="1474454504430" duration="1197000" />
-      <workItem from="1474472055706" duration="3221000" />
+      <workItem from="1474472055706" duration="3294000" />
     </task>
     <servers />
   </component>
@@ -1049,7 +1050,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60266000" />
+    <option name="totallyTimeSpent" value="60339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1273" height="730" extended-state="6" />

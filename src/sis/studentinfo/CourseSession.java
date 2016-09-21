@@ -16,7 +16,7 @@ public class CourseSession implements Comparable<CourseSession>{
     private String _courseName;
     private String _courseNumber;
     private ArrayList<Student> _students = new ArrayList<Student>();
-    private Date _startDate;
+    protected Date _startDate;
 
 
     @Override
@@ -93,7 +93,7 @@ public class CourseSession implements Comparable<CourseSession>{
      * @return null
      * @author SuWeiPeng
      * */
-    private CourseSession(String courseName, String courseNumber, Date startDate) {
+    protected CourseSession(String courseName, String courseNumber, Date startDate) {
         _setUp(courseName, courseNumber);
         _startDate = startDate;
     }

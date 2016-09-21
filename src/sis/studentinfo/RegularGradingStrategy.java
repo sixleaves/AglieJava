@@ -6,11 +6,12 @@ package sis.studentinfo;
 public class RegularGradingStrategy implements GradingStrategy {
     @Override
     public int getGradePointFor(Student.Grade grade) {
-        if (grade.equals(Student.Grade.A)) return  4;
-        if (grade.equals(Student.Grade.B)) return  3;
-        if (grade.equals(Student.Grade.C)) return  2;
-        if (grade.equals(Student.Grade.D))  return  1;
-        return 0;
-
+        switch (grade) {
+            case A: return 4;
+            case B: return 3;
+            case C: return 2;
+            case D: return 1;
+            default: return 0;
+        }
     }
 }

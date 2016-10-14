@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b97bd08-d977-4f8d-a1d7-e6679f258312" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace (admini的Mac mini 的冲突副本 2016-09-29).xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sis/studentinfo/Score.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sis/studentinfo/ScoreTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sis/studentinfo/StudentNameFormatException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/Session.class" afterPath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/Session.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/SessionTest.class" afterPath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/SessionTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/Student$Grade.class" afterPath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/Student$Grade.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/Student.class" afterPath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/StudentTest1.class" afterPath="$PROJECT_DIR$/out/production/javaStudy/sis/studentinfo/StudentTest1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sis/studentinfo/SessionException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sis/studentinfo/Session.java" afterPath="$PROJECT_DIR$/src/sis/studentinfo/Session.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sis/studentinfo/SessionTest.java" afterPath="$PROJECT_DIR$/src/sis/studentinfo/SessionTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sis/studentinfo/Student.java" afterPath="$PROJECT_DIR$/src/sis/studentinfo/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sis/studentinfo/StudentNameFormatException.java" afterPath="$PROJECT_DIR$/src/sis/studentinfo/StudentNameFormatException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java" afterPath="$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java" />
     </list>
     <ignored path="javaStudy.iws" />
@@ -42,16 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DateUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/DateUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Score.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/Score.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/SessionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="421">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,8 +69,8 @@
       <file leaf-file-name="StudentTest1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="137" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -98,20 +79,25 @@
       <file leaf-file-name="StudentNameFormatException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentNameFormatException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="-479">
+              <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
               <folding>
-                <element signature="e#2103#2111#0" expanded="true" />
+                <element signature="e#2210#2218#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,16 +125,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Session.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Session.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/Session.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+            <state relative-caret-position="256">
+              <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3242#3243#0" expanded="true" />
-                <element signature="e#3269#3270#0" expanded="true" />
+                <element signature="e#3417#3418#0" expanded="true" />
+                <element signature="e#3444#3445#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/SessionException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -210,11 +206,12 @@
         <option value="$PROJECT_DIR$/src/sis/studentinfo/DateUtil.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/Score.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/ScoreTest.java" />
-        <option value="$PROJECT_DIR$/src/sis/studentinfo/Session.java" />
-        <option value="$PROJECT_DIR$/src/sis/studentinfo/SessionTest.java" />
-        <option value="$PROJECT_DIR$/src/sis/studentinfo/StudentNameFormatException.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java" />
+        <option value="$PROJECT_DIR$/src/sis/studentinfo/StudentNameFormatException.java" />
         <option value="$PROJECT_DIR$/src/sis/studentinfo/Student.java" />
+        <option value="$PROJECT_DIR$/src/sis/studentinfo/SessionException.java" />
+        <option value="$PROJECT_DIR$/src/sis/studentinfo/SessionTest.java" />
+        <option value="$PROJECT_DIR$/src/sis/studentinfo/Session.java" />
       </list>
     </option>
   </component>
@@ -1052,20 +1049,11 @@
       <workItem from="1475215406297" duration="155000" />
       <workItem from="1475892911524" duration="1093000" />
       <workItem from="1476013917868" duration="7000" />
-      <workItem from="1476413579290" duration="4333000" />
+      <workItem from="1476413579290" duration="6166000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ScoreTest - 2016.10.14 at 14h 00m 14s.xml">
-      <configuration name="ScoreTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScoreTest - 2016.10.14 at 14h 03m 15s.xml">
-      <configuration name="ScoreTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScoreTest - 2016.10.14 at 14h 09m 11s.xml">
-      <configuration name="ScoreTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentTest1 - 2016.10.14 at 14h 44m 45s.xml">
       <configuration name="StudentTest1" configurationId="JUnit" />
     </history-entry>
@@ -1087,9 +1075,18 @@
     <history-entry file="StudentTest1 - 2016.10.14 at 15h 04m 42s.xml">
       <configuration name="StudentTest1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentTest1 - 2016.10.14 at 15h 55m 19s.xml">
+      <configuration name="StudentTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest1 - 2016.10.14 at 15h 57m 33s.xml">
+      <configuration name="StudentTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest1 - 2016.10.14 at 15h 57m 58s.xml">
+      <configuration name="StudentTest1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70714000" />
+    <option name="totallyTimeSpent" value="72547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
@@ -1104,7 +1101,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24458599" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24458599" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1148,20 +1145,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#2103#2111#0" expanded="true" />
+            <element signature="e#2210#2218#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1235,7 +1224,7 @@
         <state relative-caret-position="0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#2103#2111#0" expanded="true" />
+            <element signature="e#2210#2218#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1479,34 +1468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3242#3243#0" expanded="true" />
-            <element signature="e#3269#3270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/SessionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentNameFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1527,18 +1488,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="137" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/StudentNameFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="-479">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
           <folding>
-            <element signature="e#2103#2111#0" expanded="true" />
+            <element signature="e#2210#2218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/SessionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/SessionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sis/studentinfo/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3417#3418#0" expanded="true" />
+            <element signature="e#3444#3445#0" expanded="true" />
           </folding>
         </state>
       </provider>

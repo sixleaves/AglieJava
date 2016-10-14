@@ -133,7 +133,7 @@ public class StudentTest1 extends junit.framework.TestCase {
             Student student = new Student("a b c d");
             fail("expected exception from 4-part name");
         }catch (StudentNameFormatException e) {
-            System.out.println("catch");
+            assertEquals("nameParts more than 3", e.getMessage());
         }
     }
 

@@ -120,8 +120,18 @@ abstract public class Session implements Comparable<CourseSession> {
         return _numberOfCredits;
     }
 
-    public void setUrl(String url) throws MalformedURLException{
-        _url = new URL(url);
+    public void setUrl(String url) throws SessionException{
+
+        try {
+            _url = new URL(url);
+        }catch (MalformedURLException e) {
+            _log(e);
+            throw new SessionException();
+        }
+    }
+
+    private void _log(Exception e) {
+
     }
 
 

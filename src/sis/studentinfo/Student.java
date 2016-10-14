@@ -68,7 +68,7 @@ public class Student {
     private String _name;
 
     private int _credits;
-    private int _maxNumberofNameParts = 4;
+    private int _maxNumberofNameParts = 3;
     static final int CREDITS_REQUIRED_FOR_FULL_TIME = 12;
     static final String IN_STATE = "CO";
 
@@ -76,9 +76,12 @@ public class Student {
         _name = name;
         List<String> nameParts = _split(name);
         // 非检查异常, 所以方法不用抛出异常
-        if (nameParts.size() >= _maxNumberofNameParts) throw new StudentNameFormatException();
-        setName(nameParts);
+        if (nameParts.size() > _maxNumberofNameParts) {
+            String message = "nameParts more than " + _maxNumberofNameParts;
+            throw new StudentNameFormatException(message);
+        }
 
+        setName(nameParts);
     }
 
     // 替代List<String> nameParts = Arrays.asList(name.split(" "));

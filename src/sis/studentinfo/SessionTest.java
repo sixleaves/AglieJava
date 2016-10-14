@@ -71,10 +71,22 @@ abstract public class SessionTest extends TestCase {
         _session =  createSession("ENG", "101", _startDate);
     }
 
-    public void testSessionURL() throws MalformedURLException{
+    public void testSessionURL() throws SessionException{
         final String url = "http://www.baidu.com";
         _session.setUrl(url);
         assertEquals(url, _session.getUrl().toString());
+    }
+
+    public void testInvalidSessionURL() {
+        final String url = "httpz://www.baidu.com";
+        try {
+            _session.setUrl(url);
+            fail("expected exception due to invalid protocol in URL");
+        }catch (SessionException e) {
+
+        }
+
+
     }
 
 

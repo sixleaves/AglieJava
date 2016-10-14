@@ -1,14 +1,16 @@
 package sis.studentinfo;
 
+import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.GregorianCalendar;
-
+import java.net.URL;
 /**
  * Created by sixleaves on 16/9/22.
  */
 abstract public class Session implements Comparable<CourseSession> {
 
+    private URL _url;
     private int _numberOfCredits;
     private static int count;
     private String _courseName;
@@ -118,4 +120,12 @@ abstract public class Session implements Comparable<CourseSession> {
         return _numberOfCredits;
     }
 
+    public void setUrl(String url) throws MalformedURLException{
+        _url = new URL(url);
+    }
+
+
+    public URL getUrl() {
+        return _url;
+    }
 }

@@ -32,13 +32,32 @@ public class StudentTest1 extends junit.framework.TestCase {
 
     public void testCreate() {
         // 请重构代码, 并说明原因
-        final String firstStudentName = "SuWeiPeng";
-        Student firstStudent = new Student(firstStudentName);
-        assertEquals(firstStudent.getName(), firstStudentName);
+//        final String firstStudentName = "SuWeiPeng";
+//        Student firstStudent = new Student(firstStudentName);
+//        assertEquals(firstStudent.getName(), firstStudentName);
+//
+//        final String secondStudentName = "WangDongLiang";
+//        Student secondStudent = new Student(secondStudentName);
+//        assertEquals(secondStudent.getName(), secondStudentName);
 
-        final String secondStudentName = "WangDongLiang";
+        final String firstStudentName = "Jane Noe";
+        Student firstStudent = new Student(firstStudentName);
+        assertEquals("Jane", firstStudent.getFirstName());
+        assertEquals("", firstStudent.getMiddleName());
+        assertEquals("Noe", firstStudent.getLastName());
+
+        final String secondStudentName = "Jane";
         Student secondStudent = new Student(secondStudentName);
-        assertEquals(secondStudent.getName(), secondStudentName);
+        assertEquals("", secondStudent.getFirstName());
+        assertEquals("", secondStudent.getMiddleName());
+        assertEquals("Jane", secondStudent.getLastName());
+
+        final String thirdStudentName = "Jane Noe Davie";
+        Student thirdStudent = new Student(thirdStudentName);
+        assertEquals("Jane", thirdStudent.getFirstName());
+        assertEquals("Noe", thirdStudent.getMiddleName());
+        assertEquals("Davie", thirdStudent.getLastName());
+
     }
 
     public void testFullTime() {
@@ -109,5 +128,13 @@ public class StudentTest1 extends junit.framework.TestCase {
         assertEquals(gpa, student.getGpa(), GRADE_TOLERANCE);
     }
 
+    public void testBadlyFormatName() {
+        try {
+            Student student = new Student("a b c d");
+            fail("expected exception from 4-part name");
+        }catch (StudentNameFormatException e) {
+            System.out.println("catch");
+        }
+    }
 
 }

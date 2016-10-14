@@ -2,6 +2,7 @@ package sis.studentinfo;
 
 import junit.framework.TestCase;
 
+import java.net.MalformedURLException;
 import java.util.Date;
 
 /**
@@ -69,6 +70,13 @@ abstract public class SessionTest extends TestCase {
         _startDate = DateUtil.createDate(2003, 1, 6);
         _session =  createSession("ENG", "101", _startDate);
     }
+
+    public void testSessionURL() throws MalformedURLException{
+        final String url = "http://www.baidu.com";
+        _session.setUrl(url);
+        assertEquals(url, _session.getUrl().toString());
+    }
+
 
     abstract Session createSession(String courseName, String courseNumber, Date startDate);
 

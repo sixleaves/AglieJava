@@ -1,11 +1,17 @@
 package sis.studentinfo;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Created by sixleaves on 16/8/11.
  */
 public class Student {
+
+    private String _firstName = "";
+    private String _middleName = "";
+    private String _lastName;
 
     // 增加判断荣誉学生的功能, 不可扩展。
     // 一旦编码起来, 容易照成需求要添加其它类型的学生,就需要更改其student类
@@ -24,6 +30,18 @@ public class Student {
 
     public void setGradingStrategy(GradingStrategy gradingStrategy) {
         _gradingStrategy = gradingStrategy;
+    }
+
+    public String getFirstName() {
+        return _firstName;
+    }
+
+    public String getMiddleName() {
+        return _middleName;
+    }
+
+    public String getLastName() {
+        return _lastName;
     }
 
     public enum Grade {
@@ -50,12 +68,43 @@ public class Student {
     private String _name;
 
     private int _credits;
-
+    private int _maxNumberofNameParts = 4;
     static final int CREDITS_REQUIRED_FOR_FULL_TIME = 12;
     static final String IN_STATE = "CO";
 
     public Student(String name) {
         _name = name;
+        List<String> nameParts = _split(name);
+        // 非检查异常, 所以方法不用抛出异常
+        if (nameParts.size() >= _maxNumberofNameParts) throw new StudentNameFormatException();
+        setName(nameParts);
+
+    }
+
+    // 替代List<String> nameParts = Arrays.asList(name.split(" "));
+    // 因为asList只是给数组提供一种集合的视图,本身操作的还是数组。所以如果要删除操作是无法进行的。
+    private List<String> _split(String name) {
+        List<String> results = new ArrayList<String>();
+        for (String namePart: name.split(" ")) {
+            results.add(namePart);
+        }
+        return results;
+    }
+
+    private void setName(List<String> nameParts) {
+        _lastName = removeLast(nameParts);
+        String name = removeLast(nameParts);
+        if (nameParts.isEmpty()) {
+            _firstName = name;
+        }else  {
+            _firstName = removeLast(nameParts);
+            _middleName = name;
+        }
+    }
+
+    private String removeLast(List<String> list) {
+        if (list.isEmpty()) return "";
+        return list.remove(list.size() - 1);
     }
 
     public int getCredits() {

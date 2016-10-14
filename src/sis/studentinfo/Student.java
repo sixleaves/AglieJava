@@ -3,6 +3,7 @@ package sis.studentinfo;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.StringJoiner;
 
 /**
  * Created by sixleaves on 16/8/11.
@@ -18,7 +19,7 @@ public class Student {
     // 而依赖于student的类就很可能得跟着做更改。
     private boolean _isHonors = false;
     private GradingStrategy _gradingStrategy = new RegularGradingStrategy();
-
+    public static final String TOO_MANY_NAME_PARTS_MSG = "nameParts more than %s";
     public void setHonors() {
         _isHonors = true;
         _gradingStrategy = new HonorsGradingStrategy();
@@ -68,7 +69,7 @@ public class Student {
     private String _name;
 
     private int _credits;
-    private int _maxNumberofNameParts = 3;
+    public static int MAX_NAME_PARTS = 3;
     static final int CREDITS_REQUIRED_FOR_FULL_TIME = 12;
     static final String IN_STATE = "CO";
 
@@ -76,8 +77,9 @@ public class Student {
         _name = name;
         List<String> nameParts = _split(name);
         // 非检查异常, 所以方法不用抛出异常
-        if (nameParts.size() > _maxNumberofNameParts) {
-            String message = "nameParts more than " + _maxNumberofNameParts;
+        if (nameParts.size() > Student.MAX_NAME_PARTS) {
+
+            String message = String.format(Student.TOO_MANY_NAME_PARTS_MSG, Student.MAX_NAME_PARTS);
             throw new StudentNameFormatException(message);
         }
 

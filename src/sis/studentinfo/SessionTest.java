@@ -83,10 +83,9 @@ abstract public class SessionTest extends TestCase {
             _session.setUrl(url);
             fail("expected exception due to invalid protocol in URL");
         }catch (SessionException e) {
-
+            Throwable cause = e.getCause();
+            assertEquals(MalformedURLException.class, cause.getClass());
         }
-
-
     }
 
 

@@ -126,7 +126,7 @@ abstract public class Session implements Comparable<CourseSession> {
             _url = new URL(url);
         }catch (MalformedURLException e) {
             _log(e);
-            throw new SessionException();
+            throw new SessionException(e);
         }
     }
 
